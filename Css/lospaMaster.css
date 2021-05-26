@@ -818,8 +818,14 @@ footer .copyright {
   margin-bottom: 0;
   text-align: center;
 }
-footer .copyright a {
+footer .copyright a:not(.aa) {
   color: #ff817e;
+}
+.zeyad {
+  transition: 0.5s;
+}
+footer .aa:hover .zeyad{
+  color: var(--main-color);
 }
 @media (max-width: 767px) {
   footer .container nav ul li a {
